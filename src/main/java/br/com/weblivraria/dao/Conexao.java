@@ -23,7 +23,7 @@ public abstract class Conexao {
 //		caso dê algum erro iremos tratar com catch específico para banco de dados
 		try {
 			 Class.forName("com.mysql.cj.jdbc.Driver").newInstance();
-			 con = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3784", "root", "senac@123");
+			 con = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3784/livrariadb", "root", "senac@123");
 		}
 		catch(ClassNotFoundException | IllegalAccessException | InstantiationException e) {
 			ab = false;
