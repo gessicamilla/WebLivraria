@@ -284,7 +284,7 @@ public class Home extends HttpServlet {
 				+ "        </div>\r\n"
 				+ "\r\n"
 				+ "        <div id=\"copy\">\r\n"
-				+ "            ©Copyrigth-todos os direitos reservados | design by <a href=\"https://github.com/gessicamilla\">Géssica Rodrigues</a></div>\r\n"
+				+ "            ©Copyrigth-todos os direitos reservados | design by <a href=\"https://github.com/gessicamilla/WebLivraria\">Géssica Rodrigues</a></div>\r\n"
 				+ "\r\n"
 				+ "\r\n"
 				+ "    </footer>\r\n"
